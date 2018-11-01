@@ -2,46 +2,7 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
-const moment = require('moment');
-
-const getYoutubeID = require('get-youtube-id');
-
-const fetchVideoInfo = require('youtube-info');
-
-const YouTube = require('simple-youtube-api');
-
-const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
-
-const queue = new Map();
-
-const ytdl = require('ytdl-core');
-
-const fs = require('fs');
-
-const gif = require("gif-search");
-
 const prefix = "spam"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -160,19 +121,19 @@ let spam = msg.guild.channels.find('name', 'spam');
 
 setInterval(function(){
 
-	spam.send('spam')
+	spam.send(Math.random().toString(36).substring(7))
 
 }, 500);
 
 setInterval(function(){
 
-	spam.send('hi')
+	spam.send(Math.random().toString(36).substring(7))
 
 }, 1000);
 
 setInterval(function(){
 
-	spam.send('i like this')
+	spam.send(Math.random().toString(36).substring(7))
 
 }, 1500);	
 
@@ -192,19 +153,19 @@ let spam = msg.guild.channels.find('name', '1spam');
 
 setInterval(function(){
 
-	spam.send('spam')
+	spam.send(Math.random().toString(36).substring(7))
 
 }, 500);
 
 setInterval(function(){
 
-	spam.send('hi')
+	spam.send(Math.random().toString(36).substring(7))
 
 }, 1000);
 
 setInterval(function(){
 
-	spam.send('i like this')
+	spam.send(Math.random().toString(36).substring(7))
 
 }, 1500);	
 
@@ -224,20 +185,19 @@ let spam = msg.guild.channels.find('name', '2spam');
 
 setInterval(function(){
 
-	spam.send('spam')
+	spam.send(Math.random().toString(36).substring(7))
 
 }, 500);
 
 setInterval(function(){
 
-	spam.send('hi')
+	spam.send(Math.random().toString(36).substring(7)))
 
 }, 1000);
 
 setInterval(function(){
 
-	spam.send('i like this')
-
+	spam.send(Math.random().toString(36).substring(7))
 }, 1500);	
 
 	}
@@ -256,19 +216,18 @@ let spam = msg.guild.channels.find('name', '3spam');
 
 setInterval(function(){
 
-	spam.send('spam')
-
+	spam.send(Math.random().toString(36).substring(7))
 }, 500);
 
 setInterval(function(){
 
-	spam.send('hi')
+	spam.send(Math.random().toString(36).substring(7))
 
 }, 1000);
 
 setInterval(function(){
 
-	spam.send('i like this')
+	spam.send(Math.random().toString(36).substring(7))
 
 }, 1500);	
 
@@ -288,19 +247,19 @@ let spam = msg.guild.channels.find('name', '4spam');
 
 setInterval(function(){
 
-	spam.send('spam')
-
+       spam.send(Math.random().toString(36).substring(7))
+	
 }, 500);
 
 setInterval(function(){
 
-	spam.send('hi')
+	spam.send(Math.random().toString(36).substring(7))
 
 }, 1000);
 
 setInterval(function(){
 
-	spam.send('i like this')
+	spam.send(Math.random().toString(36).substring(7))
 
 }, 1500);	
 
